@@ -55,6 +55,13 @@
 	}
 }
 
+:root[privatebrowsingmode] #TabsToolbar
+{
+	color: #808387 !important;
+	--toolbarbutton-hover-background: rgba(196, 198, 204, .8) !important;
+	--toolbarbutton-active-background: #bec0c6 !important;
+}
+
  /* < FF 65, >= FF 65 */
 :-moz-any(.titlebar-placeholder, .titlebar-spacer)
 {
@@ -74,6 +81,11 @@
 	{
 		width: 8px !important;
 	}
+}
+
+:root[privatebrowsingmode] #TabsToolbar
+{
+	background-color: var(--lwt-accent-color-inactive, var(--lwt-accent-color)) !important;
 }
 
 /* vertically center buttons in tab bar */
