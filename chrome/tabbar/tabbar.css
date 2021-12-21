@@ -58,8 +58,6 @@
 :root[privatebrowsingmode] #TabsToolbar
 {
 	color: #808387 !important;
-	--toolbarbutton-hover-background: rgba(196, 198, 204, .8) !important;
-	--toolbarbutton-active-background: #bec0c6 !important;
 }
 
  /* < FF 65, >= FF 65 */
