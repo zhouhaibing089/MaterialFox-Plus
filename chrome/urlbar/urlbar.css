@@ -302,6 +302,11 @@
 	margin-inline-end: 8px !important;
 }
 
+:root[privatebrowsingmode] #urlbar-search-mode-indicator
+{
+	background-color: var(--toolbar-bgcolor) !important;
+}
+
 .urlbarView
 {
 	top: 0 !important;
