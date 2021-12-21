@@ -19,6 +19,14 @@
 	width: auto !important;
 }
 
+.urlbarView-row-inner:hover {
+	background-color: var(--toolbar-field-hover-background-color) !important;
+}
+
+.urlbarView-row-inner:focus {
+	background-color: var(--toolbar-field-focus-background-color) !important;
+}
+
 .urlbarView-no-wrap
 {
 	height: 100% !important;
@@ -151,6 +159,14 @@
 	background-image: none !important;
 	color: inherit !important;
 	border: 0 !important;
+}
+
+.searchbar-engine-one-off-item:hover {
+	background-color: var(--toolbarbutton-hover-background) !important;
+}
+
+.searchbar-engine-one-off-item:focus {
+	background-color: var(--toolbarbutton-hover-background) !important;
 }
 
 #urlbar-container
