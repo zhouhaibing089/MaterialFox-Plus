@@ -326,9 +326,14 @@
 	padding-inline-start: 8px !important;
 }
 
-.tabbrowser-tab[pinned]:-moz-any([soundplaying], [muted], [activemedia-blocked]) .tab-icon-image
+.tabbrowser-tab:-moz-any([soundplaying], [muted], [activemedia-blocked]) .tab-icon-image
 {
 	visibility: hidden !important;
+}
+
+.tab-icon-sound-label
+{
+	display: none !important;
 }
 
 .tabbrowser-tab[fadein] .tab-close-button
