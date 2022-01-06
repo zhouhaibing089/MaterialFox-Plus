@@ -12,7 +12,7 @@ Inspired by Google's Material Design and their latest Google Chrome UI, this the
 This is a userChrome.css theme, which means you must manually add it to your Firefox profile. The theme overrides certain browser styles. Currently, only the main UI is affected (settings pages, etc. are not). More elements of the UI may be styled in the future but a broader scope becomes harder to maintain as Mozilla updates their browser code so some UI styles may be culled or redone if they become unmaintainable.
 
 ## What version do I use?
-Check the [releases](https://github.com/typeling1578/MaterialFox/releases) section. Each release version will match the compatible Firefox version. For example, if you're using Firefox 88, try a v88.x release. If there's no matching release and you're not using an old version of Firefox, go for the latest one. If you're using a beta version of Firefox, you might want to try the master branch, which will have the latest bug fixes.
+It works with the latest version or 91ESR of Firefox.
 
 ## Installation
 1. Copy the chrome folder and user.js file into your Firefox profile directory. To find your profile directory, go to about:support or about:profiles.
@@ -20,10 +20,6 @@ Check the [releases](https://github.com/typeling1578/MaterialFox/releases) secti
 3. Restart Firefox.
 
 ### Recommended instructions
-Add space above tab bar:
-* Right click on toolbar -> Customize.
-* Check Drag Space checkbox.
-
 Replicate Chrome behaviour for clipped tabs:
 * [about:config] Set ```browser.tabs.tabClipWidth``` to ```83``` (default is ```140```).
 
