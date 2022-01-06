@@ -8,7 +8,15 @@
 			{
 				:root[tabsintitlebar] #TabsToolbar .titlebar-button
 				{
-					transform: translateY(-8px) !important;
+					transform: translateY(-10px) !important;
+				}
+
+				.titlebar-button {
+					padding: 10px 17px !important;
+				}
+
+				.titlebar-buttonbox-container {
+					margin-bottom: 0 !important;
 				}
 				
 				@media (-moz-windows-accent-color-in-titlebar: 0)
