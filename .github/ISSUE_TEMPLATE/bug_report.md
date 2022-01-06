@@ -26,8 +26,8 @@ Steps to reproduce the behavior:
 Add screenshots to help explain your problem.
 
 **System info**
- - OS: [e.g. Windows 10]
- - Firefox version: [e.g. 75]
+ - OS: [e.g. Windows 11]
+ - Firefox version: [e.g. 96]
 
 **Additional context**
 Add any other context about the problem here.
