@@ -372,6 +372,17 @@
 	padding: 0 !important;
 }
 
+#notification-popup-box {
+	width: auto !important;
+	height: auto !important;
+}
+
+#notification-popup-box image {
+	width: 16px !important;
+	height: 16px !important;
+	padding: 0 !important;
+}
+
 /* separator */
 #urlbar[pageproxystate=valid] #identity-box:-moz-any(.chromeUI, .extensionPage, .notSecureText) #identity-icon-box::after
 {
