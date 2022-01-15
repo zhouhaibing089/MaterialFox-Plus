@@ -527,7 +527,7 @@
 
 #tabbrowser-tabs[overflow] .tabbrowser-tab[last-visible-tab]:not([pinned])
 {
-	margin-inline-end: 7px !important;
+	margin-inline-end: 8px !important;
 }
 
 .tabbrowser-tab[usercontextid] > .tab-stack::after
