@@ -15,9 +15,11 @@ This is a userChrome.css theme, which means you must manually add it to your Fir
 It works with the latest version or 91ESR of Firefox.
 
 ## Installation
-1. Copy the chrome folder and user.js file into your Firefox profile directory. To find your profile directory, go to about:support or about:profiles.
-2. See [Recommended instructions](#recommended-instructions) if you'd prefer a more Chrome-like experience.
-3. Restart Firefox.
+1. [about:config] Set ```toolkit.legacyUserProfileCustomizations.stylesheets``` to ```true``` (default is ```false```).
+2. [about:config] Set ```svg.context-properties.content.enabled``` to ```true``` (default is ```false```).
+3. Copy the chrome folder into your Firefox profile directory. To find your profile directory, go to about:support or about:profiles.
+4. See [Recommended instructions](#recommended-instructions) if you'd prefer a more Chrome-like experience.
+5. Restart Firefox.
 
 ### Recommended instructions
 Replicate Chrome behaviour for clipped tabs:
