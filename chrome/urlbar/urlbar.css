@@ -17,6 +17,7 @@
 	padding-inline: 48px 16px !important;
 	max-width: 100% !important;
 	width: auto !important;
+	color: inherit !important;
 }
 
 .urlbarView-row-inner:hover {
