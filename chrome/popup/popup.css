@@ -37,3 +37,8 @@ menuitem[type=radio] .menu-iconic-icon
 	height: 16px !important;
 	margin-inline-start: 0 !important;
 }
+
+menupopup::part(content) {
+	box-shadow: unset !important;
+	margin: 0 !important;
+}
