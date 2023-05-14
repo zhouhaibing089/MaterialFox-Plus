@@ -128,8 +128,8 @@
 }
 
 /* special case for pinned tabs when overflowing */
-#tabbrowser-tabs:not([overflow]) .tabbrowser-tab:not([first-visible-tab]),
-#tabbrowser-tabs[overflow] .tabbrowser-tab:not([first-visible-tab]):not([pinned])
+#tabbrowser-tabs:not([overflow]) .tabbrowser-tab:not([first-visible-unpinned-tab]),
+#tabbrowser-tabs[overflow] .tabbrowser-tab:not([first-visible-unpinned-tab]):not([pinned])
 {
 	margin-inline-start: -.5px !important;
 }
@@ -520,9 +520,9 @@
 	margin-inline-start: 8px !important;
 }
 
-#tabbrowser-tabs[overflow] .tabbrowser-tab[first-visible-tab]:not([pinned]),
+#tabbrowser-tabs[overflow] .tabbrowser-tab[first-visible-unpinned-tab]:not([pinned]),
 #tabbrowser-tabs[overflow] .tabbrowser-tab[pinned] + .tabbrowser-tab:not([pinned]),
-#tabbrowser-tabs:not([overflow]) .tabbrowser-tab[first-visible-tab]
+#tabbrowser-tabs:not([overflow]) .tabbrowser-tab[first-visible-unpinned-tab]
 {
 	margin-inline-start: 8px !important;
 }
