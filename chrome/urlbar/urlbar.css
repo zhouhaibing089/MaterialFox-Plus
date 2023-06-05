@@ -274,11 +274,6 @@
 	flex: 1 !important;
 }
 
-#urlbar[breakout-extend="true"] .urlbar-input-box
-{
-	transform: translateX(-9px) !important;
-}
-
 #urlbar[breakout][breakout-extend]
 {
 	top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
@@ -303,13 +298,12 @@
 
 #urlbar[open] #urlbar-input-container
 {
-	height: 37px !important;
+	height: 36px !important;
 }
 
 #urlbar[open] #identity-box
 {
-	margin-inline-start: 8px !important;
-	margin-inline-end: 8px !important;
+	margin-inline-start: 7px !important;
 }
 
 :root[privatebrowsingmode] #urlbar-search-mode-indicator
