@@ -189,7 +189,6 @@
 	-moz-box-align: center !important;
 	display: block !important;
 	margin: 0 !important;
-	top: 0 !important;
 	color: inherit !important;
 	
 	--urlbar-height: 28px !important;
@@ -275,8 +274,14 @@
 	flex: 1 !important;
 }
 
-#urlbar[breakout-extend="true"] .urlbar-input-box {
+#urlbar[breakout-extend="true"] .urlbar-input-box
+{
 	transform: translateX(-9px) !important;
+}
+
+#urlbar[breakout][breakout-extend]
+{
+	top: calc((var(--urlbar-toolbar-height) - var(--urlbar-height)) / 2) !important;
 }
 
 #urlbar-input
