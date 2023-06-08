@@ -69,7 +69,7 @@
 
 :-moz-any(.titlebar-placeholder, .titlebar-spacer)[type=post-tabs]
 {
-	width: 48px !important;
+	width: 0px !important;
 	transition: width .666s cubic-bezier(.4, 0, .2, 1) !important;
 }
 
@@ -77,7 +77,7 @@
 {
 	:-moz-any(.titlebar-placeholder, .titlebar-spacer)[type=post-tabs]
 	{
-		width: 8px !important;
+		width: 0px !important;
 	}
 }
 
