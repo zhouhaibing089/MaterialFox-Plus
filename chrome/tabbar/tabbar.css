@@ -134,7 +134,8 @@
 	margin-inline-start: -.5px !important;
 }
 
-.tab-stack
+.tab-stack,
+#private-browsing-indicator-with-label
 {
 	margin-top: 4px !important;
 	margin-bottom: -4px !important;
