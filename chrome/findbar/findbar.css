@@ -41,7 +41,7 @@ hbox[anonid="findbar-textbox-wrapper"]:focus-within
 	border: 2px solid -moz-accent-color !important;
 	margin: -1px !important;
 	padding: 1px !important;
-	height: 30px !important;
+	height: 28px !important;
 }
 
 hbox[anonid="findbar-textbox-wrapper"] toolbarbutton
